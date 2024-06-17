@@ -1,5 +1,5 @@
 {% set name = "pixi-diff-to-markdown" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pixi_diff_to_markdown-{{ version }}.tar.gz
-  sha256: 2896a45fc23111417329a9666ea78bff83129d658ea4b1a1b663efda0f0a16ce
+  sha256: 162864eb120704153b387a066ff62e93fe663ead70a60cae2ae9062531e0fd95
 
 build:
   entry_points:
