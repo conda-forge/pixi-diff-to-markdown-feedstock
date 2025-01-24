@@ -9,6 +9,10 @@ Package license: BSD-3-Clause
 
 Summary: Tool for converting `pixi update` diffs to markdown
 
+Development: https://github.com/pavelzw/pixi-diff-to-markdown
+
+Documentation: https://pixi.sh/latest/advanced/updates_github_actions
+
 Current build status
 ====================
 
