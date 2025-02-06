@@ -1,6 +1,6 @@
 context:
   name: pixi-diff-to-markdown
-  version: '0.2.6'
+  version: "0.3.0"
   python_min: '3.13'
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: ef36114af4f2a1c3ebca3b00b89a0ff1634dd0cd31bde3ab082d097ce3f4d2d5
+  sha256: 114eaec8c081dace1eb3c6f672067aa85f720911cb833a4570430b580dd4684e
 
 build:
   python:
@@ -26,7 +26,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - pydantic >=2.10.5,<3
+    - pydantic >=2.10.6,<3
     - py-rattler >=0.9.0,<0.10
     - ordered_enum >=0.0.9,<0.0.10
     - typer >=0.15.1,<0.16

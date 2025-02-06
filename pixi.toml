@@ -4,7 +4,7 @@
 
 [project]
 name = "pixi-diff-to-markdown-feedstock"
-version = "3.45.3"
+version = "3.45.4"
 description = "Pixi configuration for conda-forge/pixi-diff-to-markdown-feedstock"
 authors = ["@conda-forge/pixi-diff-to-markdown"]
 channels = ["conda-forge"]
