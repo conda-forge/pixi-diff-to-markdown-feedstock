@@ -7,7 +7,7 @@
 
 [project]
 name = "pixi-diff-to-markdown-feedstock"
-version = "3.47.1"  # conda-smithy version used to generate this file
+version = "3.47.2"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/pixi-diff-to-markdown-feedstock"
 authors = ["@conda-forge/pixi-diff-to-markdown"]
 channels = ["conda-forge"]
