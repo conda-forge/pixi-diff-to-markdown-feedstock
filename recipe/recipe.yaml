@@ -41,6 +41,7 @@ tests:
       python_version: ${{ python_min }}.*
   - script:
       - pixi-diff-to-markdown --help
+      - pixi-diff-to-markdown --version
 
 about:
   homepage: https://github.com/pavelzw/pixi-diff-to-markdown
