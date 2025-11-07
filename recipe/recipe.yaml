@@ -1,7 +1,7 @@
 context:
   name: pixi-diff-to-markdown
   version: "0.3.6"
-  python_min: '3.13'
+  python_min: '3.14'
 
 package:
   name: ${{ name|lower }}
@@ -26,12 +26,12 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - pydantic >=2.11.7,<3
-    - py-rattler >=0.15.0,<0.16
+    - pydantic >=2.12.3,<3
+    - py-rattler >=0.16.0,<0.17
     - ordered-enum >=0.0.10,<0.0.11
-    - typer >=0.16.0,<0.17
-    - pydantic-settings >=2.10.1,<3
-    - more-itertools >=10.7.0,<11
+    - typer >=0.20.0,<0.21
+    - pydantic-settings >=2.11.0,<3
+    - more-itertools >=10.8.0,<11
 
 tests:
   - python:
