@@ -1,6 +1,6 @@
 context:
   name: pixi-diff-to-markdown
-  version: "0.3.6"
+  version: "0.3.7"
   python_min: '3.14'
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: c2a27db5ff2546b5306c2c0c51f0986b533cd4b880f5d690d4225e42f6ec21fa
+  sha256: a2446e74348fdcaf7c7ac9ce358ccff56f56f0643013f3733cb58ae1f40aede2
 
 build:
   python:
