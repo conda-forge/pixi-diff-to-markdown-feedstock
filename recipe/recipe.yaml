@@ -1,5 +1,5 @@
 context:
-  version: 0.3.10
+  version: 0.3.11
   python_min: '3.14'
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pixi-diff-to-markdown/pixi_diff_to_markdown-${{ version }}.tar.gz
-  sha256: 0f00b53c51d6822b4bffc4c8653dd39cefe82b7616857bdd455b36cba93bcc60
+  sha256: b3e7dc9592df37b104ee6e4d26c1826991acad7fbbc6cdaea5a32b899625bcd4
 
 build:
   python:
@@ -25,12 +25,12 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - pydantic >=2.13.4,<3
-    - py-rattler >=0.23.2,<0.24
+    - pydantic >=2.14.1,<3
+    - py-rattler >=0.27.1,<0.28
     - ordered-enum >=0.0.10,<0.0.11
-    - typer >=0.27.2,<0.28
-    - pydantic-settings >=2.14.1,<3
-    - more-itertools >=11.0.2,<12
+    - typer >=0.27.3,<0.28
+    - pydantic-settings >=2.15.0,<3
+    - more-itertools >=11.1.0,<12
 tests:
   - python:
       imports:
@@ -38,7 +38,7 @@ tests:
       pip_check: true
       python_version:
         - ${{ python_min }}.*
-        - "*"
+        - '*'
   - script:
       - pixi-diff-to-markdown --help
       - pixi-diff-to-markdown --version
